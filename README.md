@@ -1,8 +1,14 @@
 # Lakshya Bhaintwal Portfolio
 
-Minimal, typography-driven personal portfolio for Lakshya Bhaintwal. The site presents selected engineering work, experience, skills, and contact information through a polished editorial interface.
+Minimal, typography-driven portfolio showcasing software engineering, AI/ML systems, selected work, and professional background.
 
-Live demo: `https://your-vercel-url.vercel.app`
+## Live Demo
+
+[portfolio-qujys8gbt-idealsteve001-6099s-projects.vercel.app](https://portfolio-qujys8gbt-idealsteve001-6099s-projects.vercel.app)
+
+## Preview
+
+![Lakshya Bhaintwal Portfolio Preview](./public/portfolio-preview.svg)
 
 ## Tech Stack
 
@@ -10,105 +16,49 @@ Live demo: `https://your-vercel-url.vercel.app`
 - TypeScript
 - Tailwind CSS
 - Framer Motion
-- Lucide React
-- Vercel
 
-## Local Setup
+## Features / Highlights
 
-Install dependencies:
+- Editorial, typography-first interface
+- Custom cursor and subtle motion interactions
+- Scroll reveal animations with Framer Motion
+- Curated Selected Work section with project impact and links
+- Responsive dark-first design
+- SEO-ready metadata and production build support
+- Vercel-ready configuration
+
+## Setup Instructions
 
 ```bash
 npm ci
-```
-
-Run the development server:
-
-```bash
 npm run dev
 ```
 
-Open:
+Open locally:
 
 ```text
 http://127.0.0.1:3000
 ```
 
-## Quality Checks
-
-Run lint:
+Run quality checks:
 
 ```bash
 npm run lint
-```
-
-Create a production build:
-
-```bash
 npm run build
 ```
 
-## Environment Variables
-
-This project currently does not require environment variables.
-
-If environment variables are added later, document them in `.env.example`, create a local `.env.local`, and add the same keys in Vercel under:
-
-```text
-Project Settings -> Environment Variables
-```
-
-Never commit real secrets.
-
 ## Deployment
 
-This project is optimized for Vercel. Vercel will install dependencies with `npm ci` and build with `npm run build`.
+This project is configured for Vercel.
 
-Recommended settings:
+- Framework: Next.js
+- Install command: `npm ci`
+- Build command: `npm run build`
+- Output directory: `.next`
 
-- Framework Preset: `Next.js`
-- Install Command: `npm ci`
-- Build Command: `npm run build`
-- Output Directory: `.next`
+Deploy by connecting the GitHub repository to Vercel. Every push to `main` can trigger an automatic production deployment.
 
-## GitHub Actions
+## Contact
 
-The workflow in `.github/workflows/ci.yml` runs on pushes and pull requests to `main`.
-
-It verifies:
-
-- Dependency installation
-- ESLint
-- Production build
-
-## Project Structure
-
-```text
-app/                     Next.js app routes and global styles
-components/              Reusable UI, motion, site, and section components
-lib/                     Portfolio data and utilities
-public/                  Static assets, including the resume PDF
-.github/workflows/       CI workflow
-```
-
-## Updating Portfolio Content
-
-Most portfolio content lives in:
-
-```text
-lib/profile.ts
-```
-
-Update this file to edit:
-
-- Name and positioning
-- Navigation
-- Skills
-- Experience
-- Education
-- Achievements
-- Selected work
-- Contact links
-
-## License
-
-Personal portfolio project. All rights reserved.
+- GitHub: [github.com/lakshyabhaintwal](https://github.com/lakshyabhaintwal)
+- LinkedIn: [linkedin.com/in/lakshya-bhaintwal](https://linkedin.com/in/lakshya-bhaintwal)

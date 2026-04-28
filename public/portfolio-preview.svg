@@ -1,0 +1,38 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="900" fill="#0B0B0F"/>
+  <circle cx="1120" cy="318" r="215" fill="url(#shape)" opacity="0.9"/>
+  <circle cx="1120" cy="318" r="285" stroke="white" stroke-opacity="0.06"/>
+  <path d="M96 88H1344" stroke="white" stroke-opacity="0.12"/>
+  <circle cx="116" cy="58" r="19" fill="white"/>
+  <text x="116" y="63" text-anchor="middle" fill="#0B0B0F" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800">LB</text>
+  <text x="154" y="64" fill="white" fill-opacity="0.78" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">LAKSHYA BHAINTWAL</text>
+  <text x="1110" y="64" fill="white" fill-opacity="0.55" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="2">INTRO</text>
+  <text x="1190" y="64" fill="white" fill-opacity="0.55" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="2">WORK</text>
+  <text x="1265" y="64" fill="white" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">CONTACT</text>
+  <text x="96" y="184" fill="white" fill-opacity="0.45" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="5">LAKSHYA BHAINTWAL</text>
+  <text x="88" y="344" fill="white" font-family="Inter, Arial, sans-serif" font-size="154" font-weight="900" letter-spacing="-13">Lakshya</text>
+  <text x="88" y="485" fill="white" font-family="Inter, Arial, sans-serif" font-size="154" font-weight="900" letter-spacing="-13">Bhaintwal</text>
+  <text x="98" y="570" fill="white" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-2">Software Engineer</text>
+  <text x="100" y="620" fill="url(#accentText)" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="6">AI/ML / SYSTEMS / FULL STACK</text>
+  <text x="100" y="686" fill="#A7A7B0" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="300">
+    <tspan x="100" dy="0">Production-minded systems where backend architecture,</tspan>
+    <tspan x="100" dy="36">performance engineering, and applied ML meet.</tspan>
+  </text>
+  <path d="M100 770H300" stroke="white"/>
+  <text x="100" y="758" fill="white" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="4">SELECTED WORK</text>
+  <path d="M100 818H620" stroke="white" stroke-opacity="0.14"/>
+  <text x="100" y="852" fill="white" fill-opacity="0.72" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3">EZRESUME / LEGAL LLM / CINEPLEX</text>
+  <defs>
+    <radialGradient id="shape" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1055 250) rotate(52) scale(305)">
+      <stop stop-color="white"/>
+      <stop offset="0.34" stop-color="#C6CEFF" stop-opacity="0.62"/>
+      <stop offset="0.62" stop-color="#8B5CF6" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#0B0B0F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentText" x1="100" y1="603" x2="560" y2="603" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white"/>
+      <stop offset="0.55" stop-color="#D8DDFF"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+</svg>
