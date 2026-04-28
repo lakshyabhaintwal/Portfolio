@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Code2, Mail, Network } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { profile } from "@/lib/profile";
 
@@ -92,8 +93,7 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.94, rotate: -6 }}
           animate={{ opacity: 1, scale: 1, rotate: 0 }}
           transition={{ duration: 1.1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-          className="relative hidden min-h-[520px] items-center justify-center lg:flex"
-          aria-hidden="true"
+          className="relative mx-auto flex min-h-[360px] w-full max-w-[420px] items-center justify-center lg:min-h-[520px]"
         >
           <motion.div
             animate={{
@@ -102,9 +102,24 @@ export function Hero() {
               rotate: [0, 5, 0]
             }}
             transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
-            className="h-[390px] w-[390px] bg-[radial-gradient(circle_at_35%_28%,rgba(255,255,255,0.95),rgba(162,177,255,0.48)_28%,rgba(139,92,246,0.25)_56%,rgba(11,11,15,0)_72%)] opacity-85 blur-[1px] shadow-[0_0_90px_rgba(139,92,246,0.14)]"
+            className="absolute h-[300px] w-[300px] bg-[radial-gradient(circle_at_35%_28%,rgba(255,255,255,0.92),rgba(162,177,255,0.45)_28%,rgba(139,92,246,0.24)_56%,rgba(11,11,15,0)_72%)] opacity-70 blur-[1px] shadow-[0_0_90px_rgba(139,92,246,0.14)] sm:h-[380px] sm:w-[380px]"
           />
-          <div className="absolute h-[500px] w-[500px] rounded-full border border-white/[0.05]" />
+          <div className="absolute h-[340px] w-[340px] rounded-full border border-white/[0.06] sm:h-[460px] sm:w-[460px]" />
+          <motion.div
+            animate={{ y: [0, -12, 0] }}
+            transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
+            className="relative h-[260px] w-[260px] overflow-hidden rounded-full border border-white/15 bg-white/[0.03] shadow-[0_28px_90px_rgba(0,0,0,0.28)] sm:h-[340px] sm:w-[340px]"
+            data-cursor="hover"
+          >
+            <Image
+              src={profile.photoPath}
+              alt="Portrait of Lakshya Bhaintwal"
+              fill
+              priority
+              sizes="(max-width: 640px) 260px, 340px"
+              className="object-cover object-[58%_43%]"
+            />
+          </motion.div>
         </motion.div>
       </div>
     </section>

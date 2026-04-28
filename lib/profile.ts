@@ -22,6 +22,7 @@ export const profile = {
   phone: "+91 9045723770",
   linkedin: "https://linkedin.com/in/lakshya-bhaintwal",
   github: "https://github.com/lakshyabhaintwal",
+  photoPath: "/profile-photo.png",
   resumePath: "/lakshya-bhaintwal-resume.pdf",
   tagline:
     "I build production-minded systems where backend architecture, performance engineering, and applied machine learning meet.",
