@@ -61,7 +61,7 @@ export function Navbar() {
           href="#contact"
           className="editorial-link text-xs font-semibold uppercase tracking-[0.24em] text-white"
         >
-          Contact
+          Say hello ↗
         </Link>
       </nav>
       <div className="container-shell mt-3 overflow-x-auto lg:hidden">

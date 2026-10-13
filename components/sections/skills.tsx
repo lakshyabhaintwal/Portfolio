@@ -9,7 +9,7 @@ export function Skills() {
           <div className="sticky top-32">
             <p className="section-kicker">Practice</p>
             <h2 className="mt-6 max-w-xl text-5xl font-black leading-[0.92] tracking-[-0.06em] text-white sm:text-7xl">
-              What I do is somewhere between systems and intelligence.
+              Tools I work with.
             </h2>
           </div>
         </Reveal>

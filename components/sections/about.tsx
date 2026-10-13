@@ -1,26 +1,20 @@
-import { Reveal } from "@/components/motion/reveal";
-import { highlights, profile } from "@/lib/profile";
+import Image from "next/image";
+import { profile } from "@/lib/profile";
 
 export function About() {
   return (
-    <section id="about" className="container-shell py-32">
-      <Reveal>
-        <div className="ml-auto max-w-4xl">
-          <p className="section-kicker">Intro</p>
-          <p className="mt-6 text-4xl font-semibold leading-[1.05] tracking-[-0.055em] text-white sm:text-5xl lg:text-7xl">
-            I design and build software that makes intelligent systems feel reliable, fast, and quietly useful.
-          </p>
-          <p className="mt-10 max-w-2xl text-lg font-light leading-8 text-muted">
-            {profile.summary}
-          </p>
-        </div>
-      </Reveal>
-
-      <Reveal delay={0.06}>
-        <p className="ml-auto mt-16 max-w-4xl border-y border-line py-6 text-lg font-semibold leading-8 tracking-tight text-white sm:text-2xl">
-          {highlights.map((item) => `${item.value} ${item.label}`).join(" · ")}
-        </p>
-      </Reveal>
+    <section id="about" className="container-shell about-section">
+      <figure>
+        <p className="section-kicker">A bit about me</p>
+        <Image src={profile.photoPath} alt="Lakshya Bhaintwal in a computer lab, giving two thumbs up" width={666} height={490} className="about-photo" sizes="(max-width: 760px) 100vw, 440px" />
+        <figcaption>{profile.name} <span>Software engineer · India</span></figcaption>
+      </figure>
+      <div className="about-copy">
+        <h2>Curious by default<span className="accent">.</span></h2>
+        <p>I’m studying electronics at Manipal and building across software and machine learning. I care about how things work—and how to make them work better.</p>
+        <p className="text-muted">My work spans backend services, computer vision, and language models. I enjoy the details that turn an idea into something reliable: clear architecture, faster inference, and code that’s easy to build on.</p>
+        <a href={profile.github} className="editorial-link">More on GitHub ↗</a>
+      </div>
     </section>
   );
 }

@@ -7,12 +7,12 @@ export function Experience() {
       <div className="grid gap-16 lg:grid-cols-[0.9fr_1.1fr]">
         <Reveal>
           <div>
-            <p className="section-kicker">Story</p>
+            <p className="section-kicker">Experience</p>
             <h2 className="mt-6 text-5xl font-black leading-[0.9] tracking-[-0.06em] text-white sm:text-7xl">
-              Built through research, internships, and community leadership.
+              Where I’ve learned by doing.
             </h2>
             <p className="mt-8 max-w-xl text-lg font-light leading-8 text-muted">
-              Not a resume timeline, but a trail of contexts: research labs, edge deployment constraints, engineering programs, and student-led technical culture.
+              Research at IIT Roorkee, machine learning on edge devices, and helping other students get started with AI.
             </p>
           </div>
         </Reveal>

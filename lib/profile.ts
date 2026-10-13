@@ -31,11 +31,10 @@ export const profile = {
 };
 
 export const navItems = [
-  { label: "Intro", href: "#about" },
-  { label: "Practice", href: "#skills" },
   { label: "Work", href: "#projects" },
-  { label: "Story", href: "#experience" },
-  { label: "Contact", href: "#contact" }
+  { label: "About", href: "#about" },
+  { label: "Skills", href: "#skills" },
+  { label: "Experience", href: "#experience" }
 ];
 
 export const highlights = [
